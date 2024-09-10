@@ -1,0 +1,89 @@
+html {
+  background: linear-gradient(to bottom, #0a0908, #081c15);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+h2,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  color: white;
+  font-size: 1.5rem;
+  width: 1000px;
+  /* border: 2px dotted gold; */
+  margin: 0 auto;
+}
+#style-heading {
+  font-family: "Freeman", sans-serif;
+  font-size: 8rem;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: abc;
+  src: url("./blackberry-jam-font/BlackberryJamPersonalUse-rXOB.ttf");
+}
+.font-style {
+  font-family: abc;
+  font-size: 1.8rem;
+}
+
+#austronaut-img {
+  width: 1000px;
+  margin: 10px 0;
+  /* display: block;
+  margin: 0 auto; */
+}
+#overview p {
+  margin: 0;
+}
+
+.inline-txt {
+  font-size: 1.6rem;
+}
+
+.link-color {
+  color: #f7b538;
+}
+
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 100px;
+}
+#footer div,
+#footer h6 {
+  margin-top: 20px;
+}
+
+.f-desc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: 2px dotted; */
+  justify-content: space-around;
+  margin: 100px 0;
+}
+.f-desc img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.small-txt {
+  font-size: small;
+}
+.f-desc div {
+  width: 250px;
+  /* border: 2px dotted gold; */
+}
